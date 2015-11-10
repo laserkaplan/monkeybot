@@ -1,8 +1,8 @@
 #ifndef __MONKEYBOT__
 #define __MONKEYBOT__
 
-#include "mbText.cuh"
-#include "mbMath.cuh"
-#include "mbMatrix.cuh"
+#include "mb/mbText.cuh"
+#include "mb/mbMath.cuh"
+#include "mb/mbMatrix.cuh"
 
 #endif
