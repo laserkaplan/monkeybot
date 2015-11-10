@@ -4,7 +4,7 @@ A set of libraries of simple CUDA methods.
 
 ## Structure
 
-monkeybot is split into the following libraries:
+monkeybot is split into the following libraries, which can be found in the mb/ folder:
 
 - mbText: text manipulation
 - mbMath: simple math functions
@@ -14,10 +14,10 @@ A list of functions included in each library can be found in the included "funct
 
 ## Usage
 
-To use monkeybot, you can either include "monkeybot.cuh", which will include all monkeybot libraries, or whichever individual library you want to use, called "mb<library-name>.cuh".
+To use monkeybot, you can either include "monkeybot.cuh", which will include all monkeybot libraries, or whichever individual library you want to use with "mb/mb<library-name>.cuh".
 
 All monkeybot functions are kept in the namespace "mb".
 
 When compiling your program, make sure you include the path to monkeybot (i.e. use "nvcc -I <path-to-monkeybot> ...").
 
-For sample usage, see the included "helloworld.cu".
+For sample usage, see the included "helloworld.cu" in the examples/ folder.
